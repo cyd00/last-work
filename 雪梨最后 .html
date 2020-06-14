@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>雪梨最后</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.clear:after{
+			content: "";
+			height: 0;
+			display: block;
+			clear: both;
+		}
+		a{
+			text-decoration: none;
+		}
+		ul {
+			list-style: none;
+		}
+		.nav1{
+			float: left;
+			border-bottom: 1px solid pink;
+			width: 100%;
+			height: 45px;
+		}
+		.nav1>.yang{
+			float: left;
+			width: 100px;
+			text-align: center;
+			padding-top: 10px;
+			border-right: 1px solid pink;
+			padding-bottom: 10px;
+
+		}
+		.nav1>.right{
+			float: right;
+			width: 100px;
+			text-align: center;
+			padding-top: 10px;
+		}
+		.nav1 a{
+			color: black;
+		}
+		.chang{
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.changc{
+			padding-right: 50px;
+			width: 200px;
+			float: right;
+			padding-top: 10px;
+		}
+		.nav1>.yang>a:hover{
+			font-weight:bold ;
+		}
+		.right>a:hover{
+
+			text-decoration: underline;
+		}
+		.head2{
+			padding-top: 10px;
+			height: 100px;
+			border-bottom: 1px solid pink;
+		}
+		.box1{
+			width: 100%;
+			margin: 0 auto;
+		}
+		.logo{
+			width: 100px;
+			float: left;
+			margin-left: 70px;
+		}
+		.daohang2{
+			width: 500px;
+			float: left;
+		}
+
+		.search{
+			padding-right: 25px;
+			float: right;
+			padding-top: 30px;
+		}
+		.sear{
+			height: 40px;
+			float: left;
+
+		}
+		.submit{
+			float: left;
+			height: 44px;
+			
+			width: 44px;
+			background: pink url(雪梨最后/search.png) no-repeat center center;
+		}
+		.nav2{
+			float: left;
+		 	padding-left: 300px;
+		 	padding-top: 40px;
+		 	width: 600px;
+		}
+		.nav2>li{
+			float: left;
+			width: 200px;
+			font-size: 20px;
+			
+		}
+		.nav2>li>a{
+			color: black;
+		}
+
+		.banner{
+			margin-top: 10px;
+			height: 600px;
+			position: relative;
+		}
+		.banner li{
+			width: 100%;
+			height: 600px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.banner1{
+			background: #F5F5F5 url(雪梨最后/粉色.png) no-repeat center center;
+
+		}
+		.banner2{
+			background:  url(雪梨最后/banner.jpg) no-repeat center center
+		}
+		.mid2{
+			background: #F5F5F5;
+		}
+		.box2{
+			width: 1200px;
+			margin: 0 auto;
+			padding-top: 10px;
+
+		}
+		.phone
+		{
+			width: 200px;
+			height: 100px;
+			margin-left: 200px;
+			margin-top: 20px;
+			float: left;
+		}
+		.submito{
+			float: left;
+			height: 44px;
+			width: 44px;
+			background: pink url(雪梨最后/phone.png) no-repeat center center;
+		}
+		.num{
+			padding-top: 15px;
+			padding-left: 70px;
+			font-weight: bold;
+			font-size: 17.5px;
+			
+		}
+		.place{
+			width: 500px;
+			height: 100px;
+			margin-left: 200px;
+			margin-top: 20px;
+			float: left;
+			padding-left: 10px;
+			font-size: 1.2em;
+		}
+		.submitot{
+			float: left;
+			height: 44px;
+			width: 44px;
+			background: pink url(雪梨最后/img.png) no-repeat center center;
+
+		}
+		.kuai{
+			width: 300px;
+			float: right;
+			margin-top: 15px;
+			margin-right: 70px;
+			border: 5px solid pink;
+			background: url(雪梨最后/爪.png) no-repeat center center ;
+		}
+		td{
+			text-align: center;
+		}
+		.mid3{
+			background: #F5F5F5;
+			width: 100%;
+		}
+		.box3{
+			margin-left: 200px;
+			font-size: 33px;
+		}
+
+		.cat1{
+			width: 500px;
+			height: 708px;
+		}
+		.cat2{
+			width: 550px;
+			height: 350px;
+		}
+		.left{
+			float: left;
+			width: 500px;
+			margin-left: 100px;
+			margin-top: 20px;
+		}
+		#right{
+			float: left;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.jie{
+			float: right;
+			width: 400px;
+		}
+		.ping{
+			width: 400px;
+			float: right;
+			height: 240px;
+		}
+		.mid4{
+			background: #F5F5F5;
+			width: 100%;
+			padding-top: 30px;
+		}
+		a{
+			color: black;
+		}
+		.box3>a:hover{
+			color: pink;
+		}
+
+		#mid5{
+			background: #F5F5F5;
+			width: 100%;
+			padding-top: 30px;
+		}
+		.logo1{
+			width: 1300px;
+			margin: 0 auto;
+		}
+
+		.ping1
+		{
+			width: 400px;
+		}
+		.nav5{
+			width: 1200px;
+			margin: 0 auto;
+			
+		}
+		.nav5 li{
+			float: left;
+		}
+
+		.end{
+			background-color: black;
+			width: 100%;
+		}
+		.endbox{
+			width: 1200px;
+			margin-left: 15%;
+			padding-top: 50px;
+		}
+		.navone{
+			float: left;
+		}
+		.navone li{
+			padding-bottom: 15px;
+
+		}
+		.navone>li>a{
+			color: white;
+			font-size: 12px;
+		}
+		.navtwo{
+			float: left;
+			padding-left: 150px;
+		}
+		.help{
+			padding-bottom: 10px;
+		}
+		.help>a{
+			color: white;
+			font-size: 12px;
+		}
+		.xiao{
+			padding-bottom: 8px;
+		}
+		.xiao>a{
+			color:Gray;
+			font-size: 8px;
+		}
+		.xiao>a:hover{
+			color: white;
+		}
+		.boxfour{
+			float: right;
+		}
+		.navfour{
+			float: right;
+		}
+		.navfour li{
+			float: left;
+			padding-right: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="head1">
+		<div class="daohang1 clear">
+			<ul class="nav1 clear">
+				<li class="chang yang">
+					<a href="">会员请进</a>
+				</li>
+				<li class="yang">
+					<a href="" >羊驼</a>
+				</li>
+				<li class="yang">
+					<a href="" >猫猫</a>
+				</li>
+
+				<li class=" right changc">
+					<a href="">询问客服</a>
+				</li>
+				<li class="right">
+					<a href="">帮助</a>
+				</li>
+				<div class="changc  clear">
+					<li class="right">
+					 	<a href="">加入/登录 漫舞时光·猫咖</a>
+					</li>
+				</div>
+			</ul>
+		</div>
+	</div>
+
+	<div class="head2 clear">
+		<div class="box1 clear">
+			<img src="雪梨最后/猫咪.png" alt=""/ class="logo">
+			<div class="daohang2 clear">
+				<ul class="clear nav2">
+					<li>
+						<a href="">优惠</a>
+					</li>
+					<li>
+						<a href="">菜品</a>
+					</li>
+					<li>
+						<a href="">评价</a>
+					</li>
+				</ul>
+			</div>
+			<div class="search clear">
+				<input type="button" class="submit"/>
+				<input type="text" placeholder=" " class="sear"/>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="mid1 ">
+		<ul class="banner">
+			<li class="banner1"></li>
+			<li class="banner2"></li>
+		</ul>
+	</div>
+	
+	<div class="mid2 clear">
+		<div class="box2 clear">
+			<div class="phone">
+				<input type="button" class="submito"/>
+				<div class="num">183 2840 4267</div>
+			</div>
+			<div class="place">
+				<input type="button" class="submitot"/>
+				<div class="pla">锦江区红星路三段第一城A座11楼5号（近春熙路、IFS大熊猫、太古里）距离地铁2/3号线春熙路站D口步行310m</div>
+			</div>
+			<div class="kuai">
+				<form name="mYform" method="post" action="" >
+					<table cellpadding="3" border="1" cellspacing="0" align="center">
+						<caption>
+                			<h3>快速登录</h3>  
+            			</caption>
+            			<tr>
+                			<td class="td1">名字</td>
+                			<td >
+                   			 <input type="text" name="username" value=""/> 
+               			 	</td>
+           				 </tr>
+           				 <tr>
+                			<td class="td1">电话</td>
+                			<td>
+                   			 <input type="text" name="phonename" value=""/>
+               			 	</td>
+           				 </tr>
+           				 <tr>
+                			<td class="td1">温度</td>
+                			<td>
+                   			 <input type="text" name="wenduname" value=""/>
+               			 	</td>
+           				 </tr>
+           				 <tr>
+                			<td class="td1">近15是否出境</td>
+                			<td>
+                   			 <input type="radio" name="jin" value="是"/>是
+                   			 <input type="radio" name="jin" value="否"/>否
+               			 	</td>
+           				 </tr>
+           				 <tr>
+           				 	<td></td>
+                			<td align="center">
+                   			 <input type="submit" name="tiname" value="确认提交"/>
+               			 	</td>
+           				 </tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="mid3 clear">
+		<div class="logo1 clear">
+			<div class="box3 ">
+				<a href="">小可爱们</a>
+			</div>
+			
+			<div class="left clear">
+				<ul class="nav3 clear">
+					<li >
+						<img src="雪梨最后/cat2.jpg" alt=""/ class="cat1">
+					</li>
+				</ul>
+			</div>
+			<div class=" clear" id="right">
+				<ul class="nav4 clear">
+					<li >
+						<img src="雪梨最后/cat1.jpg" alt=""/ class="cat2">
+					</li>
+					<li >
+						<img src="雪梨最后/羊驼.jpg" alt=""/ class="cat2">
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="mid4">
+		<div class="logo1 clear">
+			<div class="box3">
+				<a href>招牌菜</a>
+			</div>
+		
+			<div class="left clear">
+				<ul class="nav3 clear">
+					<li >
+						<img src="雪梨最后/饮料.jpg" alt=""/ class="cat1">
+					</li>
+				</ul>
+			</div>
+			<div class=" clear" id="right">
+				<ul class="nav4 clear">
+					<li >
+						<img src="雪梨最后/饮料2.jpeg" alt=""/ class="cat2">
+					</li>
+					<li >
+						<img src="雪梨最后/饮料3.jpeg" alt=""/ class="cat2">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div calss=" clear" id="mid5">
+		<div class="logo1 clear">
+			<div class="box3 ">
+				<a href="">网友评价</a>
+			</div>
+			<div class="left clear">
+				<ul class="nav5 clear">
+					<li >
+						<img src="雪梨最后/评论1.jpg" alt=""/ class="ping1">
+					</li>
+					<li >
+						<img src="雪梨最后/评论2.jpg" alt=""/ class="ping1">
+					</li>
+					<li >
+						<img src="雪梨最后/评论3.jpg" alt=""/ class="ping1">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="end">
+		<div class="endbox clear">
+			<div class="boxone">
+				<ul class="navone">
+					<li ><a href="">电子礼卡</a></li>
+					<li ><a href="">团购</a></li>
+					<li ><a href="">附近交通</a></li>
+					<li ><a href="">订阅电子邮件</a></li>
+					<li ><a href="">注册会员</a></li>
+					<li ><a href="">网站反馈</a></li>
+				</ul>
+			</div>
+			<div class="boxtwo">
+				<ul class="navtwo">
+					<li class="help"><a href="">获得帮助</a></li>
+					<li class="xiao"><a href="">订单状态</a></li>
+					<li class="xiao"><a href="">预定方式</a></li>
+					<li class="xiao"><a href="">退款</a></li>
+					<li class="xiao"><a href="">付款选项</a></li>
+					<li class="xiao"><a href="">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="boxthree">
+				<ul class="navtwo">
+					<li class="help"><a href="">关于我们</a></li>
+					<li class="xiao"><a href="">新闻</a></li>
+					<li class="xiao"><a href="">投资者</a></li>
+					<li class="xiao"><a href="">招纳</a></li>
+					<li class="xiao"><a href="">加盟</a></li>
+				</ul>
+			</div>
+			<div class="boxfour clear">
+				<ul class="navfour clear">
+					<li >
+						<a href=""><img src="雪梨最后/wx.png" alt="wx"/></a>
+					</li>
+					<li >
+						<a href=""><img src="雪梨最后/qq.png" alt="wx"/></a>
+					</li>
+					<li >
+						<a href=""><img src="雪梨最后/wb.png" alt="wx"/></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+<html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
